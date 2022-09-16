@@ -1,0 +1,24 @@
+.theme{
+    position: relative;
+    width: 60px;
+    height: 30px;
+    border: solid 2px black;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+}
+.darck{
+    background: rgb(0, 36, 79);
+    color: white;
+    transition: all .3s ease-in-out;
+}
+.bolls{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background: royalblue;
+    left: 2px;
+    top: 1px;
+    transition: all .3s ease-in-out;
+}

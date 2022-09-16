@@ -1,0 +1,16 @@
+form .erro{
+    color: red;
+    width: 90.5%;
+    background-color: #11111150;
+}form .incorreto{
+    color: yellow; 
+    width: 90.5%;
+    background: #111111c8;
+}
+form .nao_cadastrado{
+    color: #fff;
+    width: 90.5%;
+    background: rgba(255, 0, 0, 0.575);
+}li{
+    list-style: none;
+}

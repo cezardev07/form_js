@@ -1,0 +1,88 @@
+form{
+    margin: 70px auto;
+    position: relative;
+    padding: 20px;
+    max-width: 450px;
+}
+form h1{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    cursor: default;
+}
+form h1::selection{
+    background: none;
+}
+form span{ 
+    position: absolute; 
+    top: 75px; 
+    left: 23px; 
+    cursor: default;
+    padding: .5rem 1.5rem;
+    font-weight: 600;
+}
+form span::selection{
+    background: none;
+}
+form .form_inp input{
+    width: 100%;
+    padding: 25px;
+    background: #11111118;
+    font-size: 15px;
+    font-weight: 600;
+    outline: none;
+    border: none; 
+    margin-bottom: 20px;
+}
+form .form_remember{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 40px;
+}
+form .remember{
+    position: relative;
+}
+form .remember input,label{
+    cursor: pointer;
+    font-weight: 600;
+}
+form .remember input{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+form .remember label{
+    margin-left: 25px;
+}
+form .remember::selection,label::selection{
+    background: none;
+}
+form .btn_submit{
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    height: 69px;
+    font-weight: 600;
+    border: none;
+    font-size: 17px;
+    background:royalblue;
+    color: white;
+    border-radius: 5px 5px;
+    transition: all .3s ease-in-out;
+    margin-bottom: 20px;
+}
+.btn_submit:hover{
+    background: rgba(40, 91, 247, 0.993);
+    transform: translateY(-4px);
+}
+a{
+    color: rgba(40, 91, 247, 0.993);font-weight: 600;
+}
+#btn_remove{
+    display: none;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: red;float: right;font-size: 20px;
+}
