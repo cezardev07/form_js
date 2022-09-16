@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form JS</title>
+    <link rel="shortcut icon" href="src/img/winfavicon.PNG" type="image/x-icon">
+    <script src="src/js/app.js" defer></script>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/theme.css">
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/erro.css">
+</head>
+<body>
+    <form class="my_form">
+        <div class="theme" id="theme">
+            <div class="bolls" id="bolls"></div>
+        </div>
+        <h1>Login</h1>        
+        <span id="msg_erro"></span>
+        <div class="form_inp">
+            <input type="email" name="email" id="email" placeholder="Username" autocomplete="off">
+            <input type="password" name="password" id="password" placeholder="Password">
+        </div>
+        <div class="form_remember">
+            <div class="remember">
+                <input type="checkbox" name="checkbox" id="checkbox">
+                <label for="checkbox">Remenber me</label>
+            </div>
+            <div class="help">
+                <a href="#" style="text-decoration: none;">Forgot?</a>
+            </div>
+        </div>
+        <input type="submit" value="LOGIN" class="btn_submit" id="btn_submit">
+        <ul>
+            <button id="btn_remove">x</button>
+            <h3></h3>
+            <li id="usuario"></li>
+        </ul>
+    </form>
+</body>
+</html>
